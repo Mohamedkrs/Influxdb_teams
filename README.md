@@ -1,4 +1,5 @@
 # teams.endpoint
+This Repository in based on https://github.com/influxdata/flux/tree/v0.113.1/stdlib/contrib/sranka teams code and adds extra features like mentions and buttons.
 Basic Example:
 ```
 url= "https://..."
