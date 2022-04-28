@@ -2,7 +2,7 @@
 This Repository in based on https://github.com/influxdata/flux/tree/v0.113.1/stdlib/contrib/sranka teams code and adds extra features like mentions and buttons.
 
 Basic Example:
-Copy [teams](https://github.com/Mohamedkrs/Influxdb_teams/blob/main/teams.flux) into a task in influxdb and add these next code at the end.
+Copy [teams](https://github.com/Mohamedkrs/Influxdb_teams/blob/main/teams.flux) into a task in influxdb and add the next code at the end.
 This Example adds a mention for *Tom Cruise* with its respective teams ID ( use [Graph Explorer](https://developer.microsoft.com/en-us/graph/graph-explorer) to get the correct IDs). It's possible to add multiple mentions as follow:
 > mentions = addMention(name : "James Bond",id:"007") + addMention(name : "Tom Cruise",id:"123456")
 
